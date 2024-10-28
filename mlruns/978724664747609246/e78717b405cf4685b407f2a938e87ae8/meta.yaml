@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bilas/MLOPS/mlruns/978724664747609246/e78717b405cf4685b407f2a938e87ae8/artifacts
+end_time: 1730152820355
+entry_point_name: ''
+experiment_id: '978724664747609246'
+lifecycle_stage: active
+run_id: e78717b405cf4685b407f2a938e87ae8
+run_name: Random_Forest
+run_uuid: e78717b405cf4685b407f2a938e87ae8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730152804110
+status: 3
+tags: []
+user_id: bilas

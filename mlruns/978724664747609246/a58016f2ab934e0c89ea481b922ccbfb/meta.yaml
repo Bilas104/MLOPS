@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bilas/MLOPS/mlruns/978724664747609246/a58016f2ab934e0c89ea481b922ccbfb/artifacts
+end_time: 1728408397273
+entry_point_name: ''
+experiment_id: '978724664747609246'
+lifecycle_stage: active
+run_id: a58016f2ab934e0c89ea481b922ccbfb
+run_name: Linear_Regression
+run_uuid: a58016f2ab934e0c89ea481b922ccbfb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728408393772
+status: 3
+tags: []
+user_id: bilas

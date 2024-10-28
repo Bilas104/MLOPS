@@ -1,0 +1,6 @@
+artifact_location: file:///home/bilas/MLOPS/mlruns/978724664747609246
+creation_time: 1728408393545
+experiment_id: '978724664747609246'
+last_update_time: 1728408393545
+lifecycle_stage: active
+name: California_Housing_Experiment

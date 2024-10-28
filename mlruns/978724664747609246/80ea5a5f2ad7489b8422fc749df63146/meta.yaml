@@ -1,0 +1,16 @@
+artifact_uri: file:///home/bilas/MLOPS/mlruns/978724664747609246/80ea5a5f2ad7489b8422fc749df63146/artifacts
+deleted_time: 1730153038420
+end_time: 1728408416767
+entry_point_name: ''
+experiment_id: '978724664747609246'
+lifecycle_stage: deleted
+run_id: 80ea5a5f2ad7489b8422fc749df63146
+run_name: sassy-koi-896
+run_uuid: 80ea5a5f2ad7489b8422fc749df63146
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728408414510
+status: 3
+tags: []
+user_id: bilas
