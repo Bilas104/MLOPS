@@ -7,8 +7,18 @@ from sklearn.datasets import load_diabetes
 import mlflow
 import mlflow.sklearn
 
+experiment_name = "Diabetes_Experiment"
+
+# Create the experiment with artifact location
+try:
+    mlflow.create_experiment(experiment_name, artifact_location="/home/bilas/mlflow_artifacts")
+except mlflow.exceptions.MlflowException as e:
+    if e.error_code != 'RESOURCE_ALREADY_EXISTS':
+        raise
+
 # Set the experiment name
-mlflow.set_experiment("Diabetes_Experiment", artifact_location="/home/bilas/mlflow_artifacts")
+mlflow.set_experiment("experiment_name")
+
 
 # Load the California Housing dataset directly from Scikit-learn
 diabetes = load_diabetes(as_frame=True)
