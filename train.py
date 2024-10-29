@@ -3,19 +3,19 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
-from sklearn.datasets import fetch_california_housing
+from sklearn.datasets import load_diabetes
 import mlflow
 import mlflow.sklearn
 
 # Set the experiment name
-mlflow.set_experiment("California_Housing_Experiment")
+mlflow.set_experiment("Diabetes_Experiment", artifact_location="/home/bilas/mlflow_artifacts")
 
 # Load the California Housing dataset directly from Scikit-learn
-california_housing = fetch_california_housing(as_frame=True)
+diabetes = load_diabetes(as_frame=True)
 
 # Convert to pandas DataFrame
-data = pd.DataFrame(california_housing.data, columns=california_housing.feature_names)
-data['target'] = california_housing.target  # Add the target variable
+data = pd.DataFrame(diabetes.data, columns=diabetes.feature_names)
+data['target'] = diabetes.target  # Add the target variable
 
 # Prepare the data
 X = data.drop(columns=["target"])
